@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Form1
+    partial class 登录
     {
         /// <summary>
         /// 必需的设计器变量。

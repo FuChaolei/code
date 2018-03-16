@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
             if (username == "付超磊" && password == "123")
             {
                 MessageBox.Show("登陆成功！");
-                Form2 form2 = new Form2();
+                教务系统 form2 = new 教务系统();
                 form2.Show();
             }
             else

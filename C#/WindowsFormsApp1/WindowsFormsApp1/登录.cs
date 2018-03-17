@@ -31,7 +31,7 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("登陆成功！");
                 教务系统 form2 = new 教务系统();
-                form2.Show();
+                form2.ShowDialog();
             }
             else
                 MessageBox.Show("登录失败！");
@@ -43,6 +43,16 @@ namespace WindowsFormsApp1
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

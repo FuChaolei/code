@@ -31,5 +31,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void 教务系统_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1522376861 source:d:\code\c\存入本金和期限\main.c
+	<stdio.h>
+	<stdlib.h>
+

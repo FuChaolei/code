@@ -45,6 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="jiaowuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jiaowuDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="登录.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +79,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="jiaowuDataSet.xsc">
+      <DependentUpon>jiaowuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jiaowuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jiaowuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jiaowuDataSet.xss">
+      <DependentUpon>jiaowuDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

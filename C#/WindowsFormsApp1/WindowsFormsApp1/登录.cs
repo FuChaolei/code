@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,22 @@ namespace WindowsFormsApp1
             string username, password;
             username = textBox2.Text;
             password = textBox1.Text;
-            if (username == "付超磊" && password == "123")
+			string myConn = "Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025";
+			SqlConnection sqlConnection = new SqlConnection(myConn);  //实例化连接对象
+
+			sqlConnection.Open();
+
+
+
+			string sql = "select userid,password from usertable where userid = '" + username + "' and password = '" + password + "'";                                            //编写SQL命令
+
+			SqlCommand sqlCommand = new SqlCommand(sql, sqlConnection);
+
+
+
+			SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+
+			if (username == "付超磊" && password == "123")
             {
                 MessageBox.Show("登陆成功！");
                 教务系统 form2 = new 教务系统();

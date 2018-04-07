@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523071371 source:d:\code\c\输入一个整数，输出它的符号\main.c
+	<stdio.h>
+	<stdlib.h>
+

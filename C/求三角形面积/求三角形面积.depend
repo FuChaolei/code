@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1522551163 source:d:\code\c\求三角形面积\main.c
+	<stdio.h>
+	<stdlib.h>
+	"math.h"
+

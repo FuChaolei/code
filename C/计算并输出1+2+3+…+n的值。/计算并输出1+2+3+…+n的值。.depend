@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523201179 source:d:\code\c\计算并输出1+2+3+…+n的值。\main.c
+	<stdio.h>
+	<stdlib.h>
+

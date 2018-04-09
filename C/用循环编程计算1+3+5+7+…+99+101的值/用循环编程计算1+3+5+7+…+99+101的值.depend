@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523166073 source:d:\code\c\用循环编程计算1+3+5+7+…+99+101的值\main.c
+	<stdio.h>
+	<stdlib.h>
+

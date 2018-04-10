@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523339653 source:d:\code\c\并输出1～n之间的所有数的阶乘值\main.c
+	<stdio.h>
+	<stdlib.h>
+

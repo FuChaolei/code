@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
 
 			SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
 
-			if (username == "付超磊" && password == "123")
+			if (sqlDataReader.HasRows)
             {
                 MessageBox.Show("登陆成功！");
                 教务系统 form2 = new 教务系统();

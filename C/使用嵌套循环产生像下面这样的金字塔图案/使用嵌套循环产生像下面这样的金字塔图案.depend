@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523611401 source:c:\users\hp\desktop\使用嵌套循环产生像下面这样的金字塔图案\main.c
+	<stdio.h>
+	<stdlib.h>
+

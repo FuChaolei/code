@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523612416 source:c:\users\hp\desktop\请编程找出肇事车辆的号码\main.c
+	<stdio.h>
+	<stdlib.h>
+

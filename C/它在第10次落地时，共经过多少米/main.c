@@ -3,14 +3,14 @@
 
 int main()
 {
-    float s=100,b=0,c;
+    float s=100,b=100,c;
     int i;
-    for(i=10; i>0; i--)
+    for(i=9; i>0; i--)
     {
-        b=b+s;
         s=s/2;
+        b=b+s*2;
         if(i==1)
-            c=s;
+            c=s/2;
     }
 
     printf("the total of road is %f\n",b);

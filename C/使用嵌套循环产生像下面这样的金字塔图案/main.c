@@ -19,7 +19,7 @@ int main()
         }
         if(j>'A')
         {
-            for(k=i-1;k>='A';k--)
+             for(k=i-1;k>='A';k--)
                 printf("%c",k);
         }
         printf("\n");

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523857701 source:d:\code\c\知道有多少人，便让士兵排队\main.c
+	<stdio.h>
+	<stdlib.h>
+

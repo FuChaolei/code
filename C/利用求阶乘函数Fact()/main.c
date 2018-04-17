@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-unsigned int Fact(n)
+unsigned int Fact(int n)
 {
-    unsigned int i,s=0;
+    int i;
+    long t=1;
     for(i=1;i<=n;i++)
     {
-        for(i=i;i>0;i--)
-        {
-            s=s+i*i;
-        }
+        t*=i;
     }
-    printf("%lu",s);
-
+    return t;
 }
 int main()
 {
-    unsigned int n;
+    unsigned int n,j;
+    long s=0;
     printf("Input n(n>0):");
     scanf("%u",&n);
-    printf("sum = %lu\n",Fact(n));
+    for(j=1;j<=n;j++)
+    s=s+Fact(j);
+    printf("sum = %lu\n",s);
     return 0;
 }

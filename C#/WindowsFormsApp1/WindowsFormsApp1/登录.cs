@@ -82,5 +82,15 @@ namespace WindowsFormsApp1
         {
             this.Close();
         }
-    }
+
+		private void radioButton2_CheckedChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void 学生_CheckedChanged(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1524030519 source:d:\code\c\计算其实际字符个数并打印输出，即不使用字符串处理函数strlen()编程，但能实现strlen()的功能\main.c
+	<stdio.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523964933 source:d:\code\c\转换成相应的五分制成绩grade后输出\main.c
+	<stdio.h>
+	<stdlib.h>
+

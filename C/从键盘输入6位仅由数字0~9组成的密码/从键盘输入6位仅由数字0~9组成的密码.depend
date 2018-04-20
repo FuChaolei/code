@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1524216160 source:c:\users\hp\desktop\从键盘输入6位仅由数字0~9组成的密码\main.c
+	<stdio.h>
+	<stdlib.h>
+

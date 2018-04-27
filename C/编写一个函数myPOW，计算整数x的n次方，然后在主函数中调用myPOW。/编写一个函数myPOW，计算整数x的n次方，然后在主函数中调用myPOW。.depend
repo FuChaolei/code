@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1524821016 source:c:\users\hp\desktop\编写一个函数mypow，计算整数x的n次方，然后在主函数中调用mypow。\main.c
+	<stdio.h>
+	<stdlib.h>
+

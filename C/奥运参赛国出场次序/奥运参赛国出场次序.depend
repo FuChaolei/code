@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525359982 source:d:\code\c\奥运参赛国出场次序\main.c
+	<string.h>
+	<stdio.h>
+

@@ -1,15 +1,15 @@
 #include<stdio.h>
+#define LEN 10          //zcfu
+void bubble(int dat[], int length);
 
-void bubble(int [], int);
-#define LEN 10;                     //zcfu
 main( )
  {
-	int  data[len], i;              //zcfu
+	int  data[LEN], i;              //zcfu
 	for (i=0; i<= LEN-1; i++)
-		scanf("%d", data[i]);       //zcfu
+		scanf("%d", &data[i]);       //zcfu
 	printf("\n");
 
-    void bubble(data[LEN], LEN);   //zcfu
+    bubble(data,LEN);  //zcfu
 
 	for(i=0; i<= LEN; i++) 	// Output
 		printf("%8d", data[i]);
@@ -25,10 +25,12 @@ void bubble(int dat[], int length)
 
 	for (round = head; round <= tail; round++)
 		for (i = tail; i >= round+1; i--)
-			if ( dat[i] < dat[i-1] )	{
+			if ( dat[i] < dat[i-1] )
+                {
 				t=dat[i-1];             //zcfu
 				dat[i]=dat[i-1];
 				dat[i-1]=t;
 			}
+
 
 }

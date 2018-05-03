@@ -18,7 +18,7 @@ int main()
     for(i=0;i<n;i++)
         gets(name[i]);
 
-    void SortString(name[N][MAX_LEN], n);
+    SortString(name[N][MAX_LEN], n);
     printf("Sorted results:\n");
     for(i=0;i<n;i++)
     {

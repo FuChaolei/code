@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525426155 source:c:\users\hp\desktop\原型编写统计成绩在全班平均分及平\main.c
+	<stdio.h>
+	<stdlib.h>
+

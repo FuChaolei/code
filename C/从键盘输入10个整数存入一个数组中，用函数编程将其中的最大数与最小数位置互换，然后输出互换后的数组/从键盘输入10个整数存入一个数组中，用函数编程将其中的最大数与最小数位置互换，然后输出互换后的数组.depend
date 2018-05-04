@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1525423502 source:c:\users\hp\desktop\从键盘输入10个整数存入一个数组中，用函数编程将其中的最大数与最小数位置互换，然后输出互换后的数组\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -12,7 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class 教务系统 : Form
     {
-        public 教务系统()
+		
+		public 教务系统()
         {
             InitializeComponent();
         }
@@ -29,12 +30,19 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
+			
+			this.Close();
+			登录 dl = new 登录();
+			dl.Show();
+		}
 
         private void 教务系统_Load(object sender, EventArgs e)
         {
-
         }
-    }
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

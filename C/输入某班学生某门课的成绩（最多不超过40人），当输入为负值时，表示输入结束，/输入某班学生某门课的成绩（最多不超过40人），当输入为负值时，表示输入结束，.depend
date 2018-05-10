@@ -3,3 +3,7 @@
 	<stdio.h>
 	<stdlib.h>
 
+1525449553 source:d:\code\c\输入某班学生某门课的成绩（最多不超过40人），当输入为负值时，表示输入结束，\main.c
+	<stdio.h>
+	<stdlib.h>
+

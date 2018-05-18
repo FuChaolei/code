@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1526140345 source:d:\code\c\试求满足上述立方和不等式的m的整数解\main.c
+	<stdio.h>
+	<math.h>
+

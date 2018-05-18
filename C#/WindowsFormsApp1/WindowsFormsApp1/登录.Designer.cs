@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class 登录
+    partial class denglu
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(登录));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(denglu));
 			this.button1 = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
 			this.textBox1 = new System.Windows.Forms.TextBox();
@@ -168,7 +168,7 @@
 			this.Teacher.UseVisualStyleBackColor = false;
 			this.Teacher.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
 			// 
-			// 登录
+			// denglu
 			// 
 			this.AcceptButton = this.button1;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -188,7 +188,7 @@
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Name = "登录";
+			this.Name = "denglu";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "登录";
 			this.Load += new System.EventHandler(this.Form1_Load);
@@ -202,14 +202,14 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.RadioButton Student;
 		private System.Windows.Forms.RadioButton Teacher;
+		public System.Windows.Forms.TextBox textBox1;
+		public System.Windows.Forms.TextBox textBox2;
 	}
 }
 

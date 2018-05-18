@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class 教务系统 : Form
+    public partial class jiaowuxitong : Form
     {
 		
-		public 教务系统()
+		public jiaowuxitong()
         {
             InitializeComponent();
         }
@@ -31,18 +31,68 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
 			
-			this.Close();
-			登录 dl = new 登录();
-			dl.Show();
 		}
 
         private void 教务系统_Load(object sender, EventArgs e)
         {
-        }
+			
+		}
 
 		private void button2_Click(object sender, EventArgs e)
 		{
 
+		}
+
+		private void 学ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			
+			studentI form4 = new studentI();
+			form4.Show();
+			
+		}
+
+		private void 修改登录密码ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			studentI st = new studentI();
+			st.Show();
+		}
+
+		private void 切换账号ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			new denglu().Show();
+			this.Close();
+			//denglu.Visible = true;
+			//denglu dl = new denglu();
+			//dl.Show();
+		}
+
+		private void 添加学生信息ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			tianjia ti = new tianjia();
+			ti.Show();
+		}
+
+		private void 查询学生信息ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			chaxun cha = new chaxun();
+			cha.Show();
+		}
+
+		private void 修改学生信息ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			xiugai xig = new xiugai();
+			xig.Show();
+		}
+
+		private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
+
+		private void 删除学生信息ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			shanchu shan = new shanchu();
+			shan.Show();
 		}
 	}
 }

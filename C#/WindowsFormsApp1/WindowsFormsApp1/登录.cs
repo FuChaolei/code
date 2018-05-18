@@ -11,10 +11,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-	public partial class 登录 : Form
+	public partial class denglu : Form
 	{
 		
-		public 登录()
+		
+		public denglu()
 		{
 			InitializeComponent();
 		}
@@ -24,9 +25,10 @@ namespace WindowsFormsApp1
 
 		}
 
-		private void button1_Click(object sender, EventArgs e)
+		public void button1_Click(object sender, EventArgs e)
 		{
-			string username, password;
+
+			string username,password;
 			username = textBox2.Text;
 			password = textBox1.Text;
 			string myConn = "Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025";
@@ -53,10 +55,11 @@ namespace WindowsFormsApp1
 				{
 					MessageBox.Show("登陆成功！");
 
-					教务系统 form2 = new 教务系统();
+					jiaowuxitong form2 = new jiaowuxitong();
+					this.Hide();
 					form2.Show();
-					this.Visible  = false;
-					this.WindowState = FormWindowState.Minimized;
+					//this.Visible  = false;
+					//this.WindowState = FormWindowState.Minimized;
 				}
 				else
 					MessageBox.Show("登录失败！");
@@ -74,8 +77,8 @@ namespace WindowsFormsApp1
 				if (teachers.HasRows)
 				{
 					MessageBox.Show("登陆成功！");
-					教务系统 form2 = new 教务系统();
-					form2.Show();
+					老师系统 form3 = new 老师系统();
+					form3.Show();
 					this.Visible = false;
 					this.WindowState = FormWindowState.Minimized;
 				}
@@ -96,7 +99,7 @@ namespace WindowsFormsApp1
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			
+		
 		}
 
 		private void label2_Click(object sender, EventArgs e)
@@ -127,6 +130,11 @@ namespace WindowsFormsApp1
 		private void 学生_CheckedChanged(object sender, EventArgs e)
 		{
 
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			
 		}
 	}
 }

@@ -45,17 +45,17 @@ namespace WindowsFormsApp1
 
 					SqlCommand cmd = new SqlCommand(insertStr, sqlConnection);
 					cmd.ExecuteNonQuery();//添加记录
-					/*sqlConnection.Close();
+					sqlConnection.Close();
 					string Conn = "Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025";
 					SqlConnection asqlConnection = new SqlConnection(Conn);  //实例化连接对象
 
 					asqlConnection.Open();
-					string mima = "INSERT INTO usertable(userid，password)   values('" + textBox1.Text + "','"  +000+  "')";
+					string mima = "INSERT INTO usertable(userid,password)   values('" + textBox1.Text + "','000')";
 
 					SqlCommand mim = new SqlCommand(mima, asqlConnection);
-					mim.ExecuteNonQuery();//添加记录*/
+					mim.ExecuteNonQuery();//添加记录
 					MessageBox.Show("添加成功");
-					sqlConnection.Close();
+					asqlConnection.Close();
 					
 				}
 			}

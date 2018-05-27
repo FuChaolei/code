@@ -1,15 +1,12 @@
 #include  <stdio.h>
 main()
 {
-    double term, result=1;
+    double term, result = 1;
     int n;
-
-    for (n=2; n<=100; n++)
+    for (n=2; n<=100; n=n+2)
     {
-        term = (2*n-2)*1.0 / (2*n-1);
-        result = result * term;
-        term = (2*n)*1.0 / (2*n-1);
+        term = (double)( n * n)/(( n - 1) * ( n + 1));
         result = result * term;
     }
-    printf("result=%lf\n", 4 * result);
+    printf("result=%f\n", 2*result);
 }

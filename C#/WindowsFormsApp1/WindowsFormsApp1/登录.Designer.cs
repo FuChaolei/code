@@ -37,8 +37,8 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.Student = new System.Windows.Forms.RadioButton();
-			this.Teacher = new System.Windows.Forms.RadioButton();
+			this.guanli = new System.Windows.Forms.RadioButton();
+			this.putong = new System.Windows.Forms.RadioButton();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -139,34 +139,34 @@
 			this.pictureBox1.TabStop = false;
 			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
 			// 
-			// Student
+			// guanli
 			// 
-			this.Student.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.Student.AutoSize = true;
-			this.Student.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-			this.Student.Location = new System.Drawing.Point(309, 242);
-			this.Student.Name = "Student";
-			this.Student.Size = new System.Drawing.Size(58, 19);
-			this.Student.TabIndex = 8;
-			this.Student.TabStop = true;
-			this.Student.Text = "学生";
-			this.Student.UseVisualStyleBackColor = false;
-			this.Student.CheckedChanged += new System.EventHandler(this.学生_CheckedChanged);
+			this.guanli.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.guanli.AutoSize = true;
+			this.guanli.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+			this.guanli.Location = new System.Drawing.Point(395, 242);
+			this.guanli.Name = "guanli";
+			this.guanli.Size = new System.Drawing.Size(73, 19);
+			this.guanli.TabIndex = 8;
+			this.guanli.TabStop = true;
+			this.guanli.Text = "管理员";
+			this.guanli.UseVisualStyleBackColor = false;
+			this.guanli.CheckedChanged += new System.EventHandler(this.学生_CheckedChanged);
 			// 
-			// Teacher
+			// putong
 			// 
-			this.Teacher.Anchor = System.Windows.Forms.AnchorStyles.None;
-			this.Teacher.AutoSize = true;
-			this.Teacher.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-			this.Teacher.ForeColor = System.Drawing.SystemColors.ControlText;
-			this.Teacher.Location = new System.Drawing.Point(425, 242);
-			this.Teacher.Name = "Teacher";
-			this.Teacher.Size = new System.Drawing.Size(58, 19);
-			this.Teacher.TabIndex = 9;
-			this.Teacher.TabStop = true;
-			this.Teacher.Text = "老师";
-			this.Teacher.UseVisualStyleBackColor = false;
-			this.Teacher.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+			this.putong.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.putong.AutoSize = true;
+			this.putong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+			this.putong.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.putong.Location = new System.Drawing.Point(275, 242);
+			this.putong.Name = "putong";
+			this.putong.Size = new System.Drawing.Size(88, 19);
+			this.putong.TabIndex = 9;
+			this.putong.TabStop = true;
+			this.putong.Text = "普通用户";
+			this.putong.UseVisualStyleBackColor = false;
+			this.putong.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
 			// 
 			// denglu
 			// 
@@ -177,8 +177,8 @@
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.CancelButton = this.button2;
 			this.ClientSize = new System.Drawing.Size(637, 450);
-			this.Controls.Add(this.Teacher);
-			this.Controls.Add(this.Student);
+			this.Controls.Add(this.putong);
+			this.Controls.Add(this.guanli);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
@@ -206,8 +206,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
-		private System.Windows.Forms.RadioButton Student;
-		private System.Windows.Forms.RadioButton Teacher;
+		private System.Windows.Forms.RadioButton guanli;
+		private System.Windows.Forms.RadioButton putong;
 		public System.Windows.Forms.TextBox textBox1;
 		public System.Windows.Forms.TextBox textBox2;
 	}

@@ -37,11 +37,11 @@ namespace WindowsFormsApp1
 			sqlConnection.Open();
 
 
-			if (Student.Checked == false && Teacher.Checked == false)
+			if (guanli.Checked == false && putong.Checked == false)
 			{
 				MessageBox.Show("请选择登录类型！");
 			}
-			else if (Student.Checked == true)
+			else if (guanli.Checked == true)
 			{
 				string sql = "select userid,password from usertable where userid = '" + username + "' and password = '" + password + "'";                                            //编写SQL命令
 
@@ -64,7 +64,7 @@ namespace WindowsFormsApp1
 				else
 					MessageBox.Show("登录失败！");
 			}
-			else if (Teacher.Checked == true)
+			else if (putong.Checked == true)
 			{
 				string sql = "select teachername,password from teachertable where teachername = '" + username + "' and password = '" + password + "'";                                            //编写SQL命令
 

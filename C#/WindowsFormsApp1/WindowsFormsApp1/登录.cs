@@ -77,7 +77,7 @@ namespace WindowsFormsApp1
 				if (teachers.HasRows)
 				{
 					MessageBox.Show("登陆成功！");
-					老师系统 form3 = new 老师系统();
+					putong form3 = new putong();
 					form3.Show();
 					this.Visible = false;
 					this.WindowState = FormWindowState.Minimized;

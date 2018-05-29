@@ -39,7 +39,12 @@
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.guanli = new System.Windows.Forms.RadioButton();
 			this.putong = new System.Windows.Forms.RadioButton();
+			this.label4 = new System.Windows.Forms.Label();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			this.button3 = new System.Windows.Forms.Button();
+			this.textBox3 = new System.Windows.Forms.TextBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// button1
@@ -47,7 +52,7 @@
 			this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.button1.BackColor = System.Drawing.Color.Lime;
 			this.button1.Font = new System.Drawing.Font("楷体", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.button1.Location = new System.Drawing.Point(197, 295);
+			this.button1.Location = new System.Drawing.Point(267, 414);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 44);
 			this.button1.TabIndex = 2;
@@ -61,7 +66,7 @@
 			this.button2.BackColor = System.Drawing.Color.Lime;
 			this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 			this.button2.Font = new System.Drawing.Font("楷体", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.button2.Location = new System.Drawing.Point(355, 295);
+			this.button2.Location = new System.Drawing.Point(425, 414);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(75, 44);
 			this.button2.TabIndex = 3;
@@ -73,7 +78,7 @@
 			// 
 			this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.textBox1.BackColor = System.Drawing.SystemColors.Info;
-			this.textBox1.Location = new System.Drawing.Point(309, 170);
+			this.textBox1.Location = new System.Drawing.Point(375, 189);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.PasswordChar = '*';
 			this.textBox1.Size = new System.Drawing.Size(159, 25);
@@ -84,7 +89,7 @@
 			// 
 			this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.textBox2.BackColor = System.Drawing.SystemColors.Info;
-			this.textBox2.Location = new System.Drawing.Point(309, 134);
+			this.textBox2.Location = new System.Drawing.Point(377, 143);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(159, 25);
 			this.textBox2.TabIndex = 0;
@@ -96,7 +101,7 @@
 			this.label1.AutoSize = true;
 			this.label1.BackColor = System.Drawing.Color.Lime;
 			this.label1.Font = new System.Drawing.Font("隶书", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label1.Location = new System.Drawing.Point(212, 140);
+			this.label1.Location = new System.Drawing.Point(280, 149);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(49, 19);
 			this.label1.TabIndex = 4;
@@ -108,7 +113,7 @@
 			this.label2.AutoSize = true;
 			this.label2.BackColor = System.Drawing.Color.Lime;
 			this.label2.Font = new System.Drawing.Font("隶书", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label2.Location = new System.Drawing.Point(212, 180);
+			this.label2.Location = new System.Drawing.Point(280, 189);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(49, 19);
 			this.label2.TabIndex = 5;
@@ -121,7 +126,7 @@
 			this.label3.AutoSize = true;
 			this.label3.BackColor = System.Drawing.Color.Aqua;
 			this.label3.Font = new System.Drawing.Font("隶书", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label3.Location = new System.Drawing.Point(193, 78);
+			this.label3.Location = new System.Drawing.Point(261, 87);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(110, 24);
 			this.label3.TabIndex = 6;
@@ -144,7 +149,7 @@
 			this.guanli.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.guanli.AutoSize = true;
 			this.guanli.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-			this.guanli.Location = new System.Drawing.Point(395, 242);
+			this.guanli.Location = new System.Drawing.Point(465, 361);
 			this.guanli.Name = "guanli";
 			this.guanli.Size = new System.Drawing.Size(73, 19);
 			this.guanli.TabIndex = 8;
@@ -159,7 +164,7 @@
 			this.putong.AutoSize = true;
 			this.putong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
 			this.putong.ForeColor = System.Drawing.SystemColors.ControlText;
-			this.putong.Location = new System.Drawing.Point(275, 242);
+			this.putong.Location = new System.Drawing.Point(345, 361);
 			this.putong.Name = "putong";
 			this.putong.Size = new System.Drawing.Size(88, 19);
 			this.putong.TabIndex = 9;
@@ -167,6 +172,50 @@
 			this.putong.Text = "普通用户";
 			this.putong.UseVisualStyleBackColor = false;
 			this.putong.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+			// 
+			// label4
+			// 
+			this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.label4.BackColor = System.Drawing.Color.Lime;
+			this.label4.Font = new System.Drawing.Font("隶书", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label4.Location = new System.Drawing.Point(268, 238);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(79, 27);
+			this.label4.TabIndex = 10;
+			this.label4.Text = "验证码";
+			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.pictureBox2.Location = new System.Drawing.Point(375, 233);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(163, 31);
+			this.pictureBox2.TabIndex = 11;
+			this.pictureBox2.TabStop = false;
+			// 
+			// button3
+			// 
+			this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.button3.BackColor = System.Drawing.Color.Lime;
+			this.button3.Font = new System.Drawing.Font("楷体", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.button3.Location = new System.Drawing.Point(226, 289);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(127, 46);
+			this.button3.TabIndex = 12;
+			this.button3.Text = "更换验证码";
+			this.button3.UseVisualStyleBackColor = false;
+			// 
+			// textBox3
+			// 
+			this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+			this.textBox3.BackColor = System.Drawing.SystemColors.Info;
+			this.textBox3.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.textBox3.Location = new System.Drawing.Point(375, 295);
+			this.textBox3.Name = "textBox3";
+			this.textBox3.Size = new System.Drawing.Size(163, 34);
+			this.textBox3.TabIndex = 13;
 			// 
 			// denglu
 			// 
@@ -176,7 +225,11 @@
 			this.BackColor = System.Drawing.SystemColors.Control;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.CancelButton = this.button2;
-			this.ClientSize = new System.Drawing.Size(637, 450);
+			this.ClientSize = new System.Drawing.Size(758, 550);
+			this.Controls.Add(this.textBox3);
+			this.Controls.Add(this.button3);
+			this.Controls.Add(this.pictureBox2);
+			this.Controls.Add(this.label4);
 			this.Controls.Add(this.putong);
 			this.Controls.Add(this.guanli);
 			this.Controls.Add(this.pictureBox1);
@@ -193,6 +246,7 @@
 			this.Text = "登录";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -210,6 +264,10 @@
 		private System.Windows.Forms.RadioButton putong;
 		public System.Windows.Forms.TextBox textBox1;
 		public System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.PictureBox pictureBox2;
+		private System.Windows.Forms.Button button3;
+		public System.Windows.Forms.TextBox textBox3;
 	}
 }
 

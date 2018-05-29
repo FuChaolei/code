@@ -50,6 +50,7 @@
 			this.label4.Size = new System.Drawing.Size(225, 25);
 			this.label4.TabIndex = 21;
 			this.label4.Text = "再次输入新密码";
+			this.label4.Click += new System.EventHandler(this.label4_Click);
 			// 
 			// textBox4
 			// 
@@ -57,6 +58,7 @@
 			this.textBox4.Name = "textBox4";
 			this.textBox4.Size = new System.Drawing.Size(155, 25);
 			this.textBox4.TabIndex = 20;
+			this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
 			// 
 			// label3
 			// 
@@ -67,6 +69,7 @@
 			this.label3.Size = new System.Drawing.Size(107, 25);
 			this.label3.TabIndex = 19;
 			this.label3.Text = "新密码";
+			this.label3.Click += new System.EventHandler(this.label3_Click);
 			// 
 			// textBox3
 			// 
@@ -74,6 +77,7 @@
 			this.textBox3.Name = "textBox3";
 			this.textBox3.Size = new System.Drawing.Size(155, 25);
 			this.textBox3.TabIndex = 18;
+			this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
 			// 
 			// label2
 			// 
@@ -84,6 +88,7 @@
 			this.label2.Size = new System.Drawing.Size(107, 25);
 			this.label2.TabIndex = 17;
 			this.label2.Text = "旧密码";
+			this.label2.Click += new System.EventHandler(this.label2_Click);
 			// 
 			// textBox2
 			// 
@@ -91,6 +96,7 @@
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(155, 25);
 			this.textBox2.TabIndex = 16;
+			this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
 			// 
 			// textBox5
 			// 
@@ -133,6 +139,7 @@
 			this.label1.Size = new System.Drawing.Size(76, 25);
 			this.label1.TabIndex = 15;
 			this.label1.Text = "账号";
+			this.label1.Click += new System.EventHandler(this.label1_Click);
 			// 
 			// studentI
 			// 

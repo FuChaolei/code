@@ -94,5 +94,10 @@ namespace WindowsFormsApp1
 			shanchu shan = new shanchu();
 			shan.Show();
 		}
+
+		private void 学生管理ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

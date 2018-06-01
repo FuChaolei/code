@@ -90,7 +90,7 @@ namespace WindowsFormsApp1
 
 		private void button4_Click(object sender, EventArgs e)
 		{
-			pu p = new pu();
+			putonggaimi p = new putonggaimi();
 			p.Show();
 		}
 	}

@@ -82,11 +82,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>jiaowuDataSet4.xsd</DependentUpon>
     </Compile>
-    <Compile Include="pu.cs">
+    <Compile Include="putonggaimi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pu.Designer.cs">
-      <DependentUpon>pu.cs</DependentUpon>
+    <Compile Include="putonggaimi.Designer.cs">
+      <DependentUpon>putonggaimi.cs</DependentUpon>
     </Compile>
     <Compile Include="shanchu.cs">
       <SubType>Form</SubType>
@@ -135,8 +135,8 @@
     <EmbeddedResource Include="chaxun.resx">
       <DependentUpon>chaxun.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pu.resx">
-      <DependentUpon>pu.cs</DependentUpon>
+    <EmbeddedResource Include="putonggaimi.resx">
+      <DependentUpon>putonggaimi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="shanchu.resx">
       <DependentUpon>shanchu.cs</DependentUpon>

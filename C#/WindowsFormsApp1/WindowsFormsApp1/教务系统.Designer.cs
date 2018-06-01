@@ -84,6 +84,7 @@
 			this.学生管理ToolStripMenuItem.Name = "学生管理ToolStripMenuItem";
 			this.学生管理ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
 			this.学生管理ToolStripMenuItem.Text = "学生管理";
+			this.学生管理ToolStripMenuItem.Click += new System.EventHandler(this.学生管理ToolStripMenuItem_Click);
 			// 
 			// toolStripSeparator1
 			// 

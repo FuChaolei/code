@@ -228,7 +228,7 @@
 			this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.button4.BackColor = System.Drawing.Color.Lime;
 			this.button4.Font = new System.Drawing.Font("楷体", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.button4.Location = new System.Drawing.Point(580, 177);
+			this.button4.Location = new System.Drawing.Point(254, 400);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(75, 44);
 			this.button4.TabIndex = 14;

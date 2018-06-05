@@ -35,14 +35,14 @@ namespace WindowsFormsApp1
 				SqlConnection conn = new SqlConnection();
 				conn.ConnectionString = "Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025";
 				conn.Open();//连接数据库
-				SqlDataAdapter da = new SqlDataAdapter("select*from studentInformation where 学号='" + textBox1.Text + "'", conn);
+				SqlDataAdapter da = new SqlDataAdapter("select*from usertable where userid='" + textBox1.Text + "'", conn);
 				DataSet ds = new DataSet("ssss1");
 				da.Fill(ds);
 				if (ds.Tables[0].Rows.Count > 0)
 				{
 					SqlCommand cmd = new SqlCommand();
 					cmd.CommandType = CommandType.Text;
-					cmd.CommandText = "delete from studentInformation where 学号='" + textBox1.Text.ToString() + "'";
+					cmd.CommandText = "delete from usertable where userid='" + textBox1.Text.ToString() + "'";
 					cmd.Connection = conn;
 					cmd.ExecuteNonQuery();//添加记录
 					MessageBox.Show("删除成功");

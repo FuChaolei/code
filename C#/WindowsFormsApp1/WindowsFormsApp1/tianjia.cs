@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
 					SqlConnection asqlConnection = new SqlConnection(Conn);  //实例化连接对象
 
 					asqlConnection.Open();
-					string mima = "INSERT INTO usertable(userid,password)   values('" + textBox1.Text + "','000')";
+					string mima = "INSERT INTO usertable(userid,password)   values('" + textBox1.Text + "','C6F057B86584942E415435FFB1FA93D4')";
 
 					SqlCommand mim = new SqlCommand(mima, asqlConnection);
 					mim.ExecuteNonQuery();//添加记录

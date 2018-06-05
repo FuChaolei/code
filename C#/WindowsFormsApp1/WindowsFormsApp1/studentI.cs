@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -191,6 +192,22 @@ namespace WindowsFormsApp1
 		private void label1_Click(object sender, EventArgs e)
 		{
 
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			byte[] result = Encoding.Default.GetBytes(this.textBox2.Text.Trim());  //输入密码的文本框
+			MD5 md5 = new MD5CryptoServiceProvider();
+			byte[] output = md5.ComputeHash(result);//加密后的登陆明文密码
+			this.textBox2.Text = BitConverter.ToString(output).Replace("-", ""); //为输出加密文本的文本框
+			byte[] results = Encoding.Default.GetBytes(this.textBox3.Text.Trim());  //输入密码的文本框
+			MD5 md5s = new MD5CryptoServiceProvider();
+			byte[] outputs = md5s.ComputeHash(results);//加密后的登陆明文密码
+			this.textBox3.Text = BitConverter.ToString(outputs).Replace("-", ""); //为输出加密文本的文本框
+			byte[] resultss = Encoding.Default.GetBytes(this.textBox4.Text.Trim());  //输入密码的文本框
+			MD5 md5ss = new MD5CryptoServiceProvider();
+			byte[] outputss = md5ss.ComputeHash(resultss);//加密后的登陆明文密码
+			this.textBox4.Text = BitConverter.ToString(outputss).Replace("-", ""); //为输出加密文本的文本框
 		}
 	}
 		}

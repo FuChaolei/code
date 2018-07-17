@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1523166631 source:d:\code\c\编程计算1×2×3+3×4×5+…+99×100×101的值\main.c
+	<stdio.h>
+	<stdlib.h>
+

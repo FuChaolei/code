@@ -119,9 +119,9 @@
 			this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.label1.BackColor = System.Drawing.Color.Lime;
 			this.label1.Font = new System.Drawing.Font("隶书", 16.2F, System.Drawing.FontStyle.Bold);
-			this.label1.Location = new System.Drawing.Point(161, 101);
+			this.label1.Location = new System.Drawing.Point(150, 101);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(225, 35);
+			this.label1.Size = new System.Drawing.Size(256, 35);
 			this.label1.TabIndex = 14;
 			this.label1.Text = "请输入学号查询";
 			// 

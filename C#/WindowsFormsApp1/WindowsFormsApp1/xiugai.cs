@@ -44,65 +44,62 @@ namespace WindowsFormsApp1
 				String zhuanye = textBox5.Text.Trim();
 
 				
-				int i = 0;
-				if (StuName != "")
-
-				{
-					SqlCommand cmd;
-					SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025");
-					con.Open();
-
-					string insertStr = "UPDATE studentInformation SET 姓名 = '" + StuName + "' WHERE 学号 = '" + StuID + "'";
-
-					cmd = new SqlCommand(insertStr, con);
-					cmd.ExecuteNonQuery();
-					con.Close();
-				}
-				if (xingbie != "")
-				{
-					SqlCommand cmdd;
-					SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025");
-					conn.Open();
-
-					string Xingbie = "UPDATE studentInformation SET 性别 = '" + xingbie + "' WHERE 学号 = '" + StuID + "'";
-
-					cmdd = new SqlCommand(Xingbie, conn);
-					cmdd.ExecuteNonQuery();
-					conn.Close();
-				}
-				if (chusheng != "")
-				{
-					SqlCommand cmddd;
-					SqlConnection connn = new SqlConnection("Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025");
-					connn.Open();
-					
-
-					string chus = "UPDATE studentInformation SET 出生年月 = '" + chusheng + "' WHERE 学号 = '" + StuID + "'";
-
-					cmddd = new SqlCommand(chus, connn);
-					cmddd.ExecuteNonQuery();
-					connn.Close();
-				}
-				if (zhuanye != "")
-				{
-					SqlCommand cmdddd;
-					SqlConnection connnn = new SqlConnection("Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025");
-					connnn.Open();
-					string zhuany = "UPDATE studentInformation SET 专业 = '" + zhuanye + "' WHERE 学号 = '" + StuID + "'";
-
-					cmdddd = new SqlCommand(zhuany, connnn);
-
-					cmdddd.ExecuteNonQuery();
-					connnn.Close();
-				}
 				
+				
+					if (StuName != "")
 
-				else
-				{
-					MessageBox.Show("输入数据违反要求!");
-					i = 1;
-				}
-			if (StuName != ""|| zhuanye != "" || chusheng != "" || xingbie != ""&& i!=1)
+					{
+						SqlCommand cmd;
+						SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025");
+						con.Open();
+
+						string insertStr = "UPDATE studentInformation SET 姓名 = '" + StuName + "' WHERE 学号 = '" + StuID + "'";
+
+						cmd = new SqlCommand(insertStr, con);
+						cmd.ExecuteNonQuery();
+						con.Close();
+					}
+					if (xingbie != "")
+					{
+						SqlCommand cmdd;
+						SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025");
+						conn.Open();
+
+						string Xingbie = "UPDATE studentInformation SET 性别 = '" + xingbie + "' WHERE 学号 = '" + StuID + "'";
+
+						cmdd = new SqlCommand(Xingbie, conn);
+						cmdd.ExecuteNonQuery();
+						conn.Close();
+					}
+					if (chusheng != "")
+					{
+						SqlCommand cmddd;
+						SqlConnection connn = new SqlConnection("Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025");
+						connn.Open();
+
+
+						string chus = "UPDATE studentInformation SET 出生年月 = '" + chusheng + "' WHERE 学号 = '" + StuID + "'";
+
+						cmddd = new SqlCommand(chus, connn);
+						cmddd.ExecuteNonQuery();
+						connn.Close();
+					}
+					if (zhuanye != "")
+					{
+						SqlCommand cmdddd;
+						SqlConnection connnn = new SqlConnection("Data Source=.;Initial Catalog=jiaowu;Persist Security Info=True;User ID=sa;Password=aA15227502025");
+						connnn.Open();
+						string zhuany = "UPDATE studentInformation SET 专业 = '" + zhuanye + "' WHERE 学号 = '" + StuID + "'";
+
+						cmdddd = new SqlCommand(zhuany, connnn);
+
+						cmdddd.ExecuteNonQuery();
+						connnn.Close();
+					}
+
+
+
+				if (StuName != "" || zhuanye != "" || chusheng != "" || xingbie != "") ;
 				{
 					MessageBox.Show("恭喜你!修改成功!");
 					//con.Dispose();

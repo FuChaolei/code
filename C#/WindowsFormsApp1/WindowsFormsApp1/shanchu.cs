@@ -61,5 +61,10 @@ namespace WindowsFormsApp1
 			}
 
 		}
+
+		private void shanchu_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

@@ -60,7 +60,7 @@
 			this.label1.Font = new System.Drawing.Font("隶书", 16.2F, System.Drawing.FontStyle.Bold);
 			this.label1.Location = new System.Drawing.Point(44, 61);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(225, 35);
+			this.label1.Size = new System.Drawing.Size(245, 35);
 			this.label1.TabIndex = 9;
 			this.label1.Text = "请输入学号查询";
 			// 

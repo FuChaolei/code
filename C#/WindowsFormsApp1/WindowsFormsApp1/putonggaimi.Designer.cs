@@ -183,6 +183,7 @@
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "putonggaimi";
 			this.Text = "putonggaimi";
+			this.Load += new System.EventHandler(this.putonggaimi_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

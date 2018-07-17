@@ -150,7 +150,7 @@ namespace WindowsFormsApp1
 				{
 					MessageBox.Show("登陆成功！");
 
-					jiaowuxitong form2 = new jiaowuxitong();
+					guanli form2 = new guanli();
 					this.Hide();
 					form2.Show();
 					this.Visible  = false;

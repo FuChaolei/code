@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class jiaowuxitong
+    partial class guanli
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
 			this.components = new System.ComponentModel.Container();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(jiaowuxitong));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(guanli));
 			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.系统 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -89,38 +89,38 @@
 			// toolStripSeparator1
 			// 
 			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(213, 6);
+			this.toolStripSeparator1.Size = new System.Drawing.Size(171, 6);
 			// 
 			// toolStripSeparator2
 			// 
 			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(213, 6);
+			this.toolStripSeparator2.Size = new System.Drawing.Size(171, 6);
 			// 
 			// 查询学生信息ToolStripMenuItem
 			// 
 			this.查询学生信息ToolStripMenuItem.Name = "查询学生信息ToolStripMenuItem";
-			this.查询学生信息ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+			this.查询学生信息ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
 			this.查询学生信息ToolStripMenuItem.Text = "查询学生信息";
 			this.查询学生信息ToolStripMenuItem.Click += new System.EventHandler(this.查询学生信息ToolStripMenuItem_Click);
 			// 
 			// 添加学生信息ToolStripMenuItem
 			// 
 			this.添加学生信息ToolStripMenuItem.Name = "添加学生信息ToolStripMenuItem";
-			this.添加学生信息ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+			this.添加学生信息ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
 			this.添加学生信息ToolStripMenuItem.Text = "添加学生信息";
 			this.添加学生信息ToolStripMenuItem.Click += new System.EventHandler(this.添加学生信息ToolStripMenuItem_Click);
 			// 
 			// 修改学生信息ToolStripMenuItem
 			// 
 			this.修改学生信息ToolStripMenuItem.Name = "修改学生信息ToolStripMenuItem";
-			this.修改学生信息ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+			this.修改学生信息ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
 			this.修改学生信息ToolStripMenuItem.Text = "修改学生信息";
 			this.修改学生信息ToolStripMenuItem.Click += new System.EventHandler(this.修改学生信息ToolStripMenuItem_Click);
 			// 
 			// 删除学生信息ToolStripMenuItem
 			// 
 			this.删除学生信息ToolStripMenuItem.Name = "删除学生信息ToolStripMenuItem";
-			this.删除学生信息ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+			this.删除学生信息ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
 			this.删除学生信息ToolStripMenuItem.Text = "删除学生信息";
 			this.删除学生信息ToolStripMenuItem.Click += new System.EventHandler(this.删除学生信息ToolStripMenuItem_Click);
 			// 
@@ -145,7 +145,7 @@
 			this.退出ToolStripMenuItem.Text = "退出";
 			this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
 			// 
-			// jiaowuxitong
+			// guanli
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,7 +156,7 @@
 			this.Controls.Add(this.menuStrip1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MainMenuStrip = this.menuStrip1;
-			this.Name = "jiaowuxitong";
+			this.Name = "guanli";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "教务系统";
 			this.Load += new System.EventHandler(this.教务系统_Load);

@@ -96,6 +96,7 @@
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "shanchu";
 			this.Text = "shanchu";
+			this.Load += new System.EventHandler(this.shanchu_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

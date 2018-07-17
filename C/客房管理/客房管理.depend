@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1528645550 source:d:\code\c\客房管理\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<windows.h>
+

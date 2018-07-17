@@ -109,5 +109,10 @@ namespace WindowsFormsApp1
 			byte[] outputss = md5ss.ComputeHash(resultss);//加密后的登陆明文密码
 			this.textBox4.Text = BitConverter.ToString(outputss).Replace("-", ""); //为输出加密文本的文本框
 		}
+
+		private void putonggaimi_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

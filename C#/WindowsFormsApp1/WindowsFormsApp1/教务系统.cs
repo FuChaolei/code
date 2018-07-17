@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class jiaowuxitong : Form
+    public partial class guanli : Form
     {
 		
-		public jiaowuxitong()
+		public guanli()
         {
             InitializeComponent();
         }
@@ -46,14 +46,14 @@ namespace WindowsFormsApp1
 		private void 学ToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			
-			studentI form4 = new studentI();
+			xiugaimima form4 = new xiugaimima();
 			form4.Show();
 			
 		}
 
 		private void 修改登录密码ToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			studentI st = new studentI();
+			xiugaimima st = new xiugaimima();
 			st.Show();
 		}
 
@@ -61,9 +61,6 @@ namespace WindowsFormsApp1
 		{
 			new denglu().Show();
 			this.Close();
-			//denglu.Visible = true;
-			//denglu dl = new denglu();
-			//dl.Show();
 		}
 
 		private void 添加学生信息ToolStripMenuItem_Click(object sender, EventArgs e)

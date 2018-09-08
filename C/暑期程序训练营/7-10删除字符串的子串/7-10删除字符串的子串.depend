@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532186434 source:d:\code\c\暑期程序训练营\7-10删除字符串的子串\main.c
+	<stdio.h>
+	<string.h>
+

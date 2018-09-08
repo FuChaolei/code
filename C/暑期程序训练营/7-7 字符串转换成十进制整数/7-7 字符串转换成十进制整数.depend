@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1532151220 source:d:\code\c\暑期程序训练营\7-7 字符串转换成十进制整数\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

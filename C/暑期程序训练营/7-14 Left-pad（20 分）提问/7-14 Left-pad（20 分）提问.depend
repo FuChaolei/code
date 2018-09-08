@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1532574988 source:d:\code\c\暑期程序训练营\7-14 left-pad（20 分）提问\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

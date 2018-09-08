@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1532167424 source:d:\code\c\暑期程序训练营\7-9 ip地址转换\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
